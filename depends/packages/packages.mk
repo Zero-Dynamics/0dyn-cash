@@ -1,4 +1,4 @@
-packages := boost openssl libevent gmp backtrace
+packages := boost openssl libevent zeromq gmp backtrace
 native_packages := native_ccache
 
 qt_packages = qrencode zlib
@@ -16,8 +16,6 @@ qt_darwin_packages = qt
 qt_mingw32_packages = qt
 
 wallet_packages = bdb
-
-zmq_packages = zeromq
 
 upnp_packages = miniupnpc
 
